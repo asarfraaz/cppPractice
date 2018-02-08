@@ -1,0 +1,7 @@
+all : hello hello_std
+
+hello : hello.cpp
+	g++ -o $@ $<
+
+hello_std : hello_std.cpp
+	g++ -o $@ $<

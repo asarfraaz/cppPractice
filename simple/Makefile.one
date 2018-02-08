@@ -1,0 +1,5 @@
+all : hello
+
+hello : hello.cpp
+	g++ -o $@ $<
+	# g++ -o hello hello.cpp
